@@ -1,0 +1,28 @@
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+  }
+  
+  .blog-post {
+    width: 100%; 
+    max-width: 600px; 
+    margin-bottom: 20px; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+    background: #fff; 
+  }
+  
+  .blog-post h2, .blog-post p, .blog-post ul {
+    text-align: left; 
+  }
+  
+  .blog-post ul {
+    padding-left: 20px; 
+  }
+  

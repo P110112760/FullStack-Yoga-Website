@@ -1,0 +1,59 @@
+
+.coaches-content {
+  padding: 20px;
+}
+
+.coaches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.coach-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.coach-image {
+  width: 100%;
+  height: auto;
+}
+
+.coach-info {
+  padding: 15px;
+}
+
+.coach-name {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.coach-description {
+  font-size: 1em;
+  color: #666;
+}
+ 
+  
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0;
+    }
+    .navbar-nav li {
+      padding: 0.5rem 0;
+    }
+    .navbar-contact {
+      margin-top: 1rem;
+      margin-bottom: 1rem; 
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  
+  

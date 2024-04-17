@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  input[type=email], input[type=password], input[type=text] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .accountCreationPrompt {
+    margin-top: 20px;
+  }
+  
+  .accountCreationPrompt a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .accountCreationPrompt a:hover {
+    text-decoration: underline;
+  }
+  
+  .backToHome {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  
+  
